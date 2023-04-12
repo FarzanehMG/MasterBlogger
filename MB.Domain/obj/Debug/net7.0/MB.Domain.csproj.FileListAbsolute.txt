@@ -1,0 +1,12 @@
+D:\.NETCore\MasterBlogger\MB.Domain\bin\Debug\net7.0\MB.Domain.deps.json
+D:\.NETCore\MasterBlogger\MB.Domain\bin\Debug\net7.0\MB.Domain.dll
+D:\.NETCore\MasterBlogger\MB.Domain\bin\Debug\net7.0\MB.Domain.pdb
+D:\.NETCore\MasterBlogger\MB.Domain\obj\Debug\net7.0\MB.Domain.csproj.AssemblyReference.cache
+D:\.NETCore\MasterBlogger\MB.Domain\obj\Debug\net7.0\MB.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NETCore\MasterBlogger\MB.Domain\obj\Debug\net7.0\MB.Domain.AssemblyInfoInputs.cache
+D:\.NETCore\MasterBlogger\MB.Domain\obj\Debug\net7.0\MB.Domain.AssemblyInfo.cs
+D:\.NETCore\MasterBlogger\MB.Domain\obj\Debug\net7.0\MB.Domain.csproj.CoreCompileInputs.cache
+D:\.NETCore\MasterBlogger\MB.Domain\obj\Debug\net7.0\MB.Domain.dll
+D:\.NETCore\MasterBlogger\MB.Domain\obj\Debug\net7.0\refint\MB.Domain.dll
+D:\.NETCore\MasterBlogger\MB.Domain\obj\Debug\net7.0\MB.Domain.pdb
+D:\.NETCore\MasterBlogger\MB.Domain\obj\Debug\net7.0\ref\MB.Domain.dll
