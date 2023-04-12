@@ -1,0 +1,17 @@
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net7.0\MB.Infrastructure.EFCore.deps.json
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net7.0\MB.Infrastructure.EFCore.runtimeconfig.json
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net7.0\MB.Infrastructure.EFCore.dll
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net7.0\MB.Infrastructure.EFCore.pdb
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net7.0\MB.Domain.dll
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net7.0\MB.Domain.pdb
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\MB.Infrastructure.EFCore.csproj.AssemblyReference.cache
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\MB.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\MB.Infrastructure.EFCore.AssemblyInfoInputs.cache
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\MB.Infrastructure.EFCore.AssemblyInfo.cs
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\MB.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\MB.Infrastructure.EFCore.csproj.CopyComplete
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\MB.Infrastructure.EFCore.dll
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\refint\MB.Infrastructure.EFCore.dll
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\MB.Infrastructure.EFCore.pdb
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\MB.Infrastructure.EFCore.genruntimeconfig.cache
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\ref\MB.Infrastructure.EFCore.dll

@@ -1,3 +1,5 @@
+using MB.Interface.core;
+
 namespace MB.Presentation.MVCCore
 {
 	public class Program
@@ -9,7 +11,16 @@ namespace MB.Presentation.MVCCore
 			// Add services to the container.
 			builder.Services.AddRazorPages();
 
+			Bootstrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("MasterBloggerDB"));
+
+			
+
+
+
+
+
 			var app = builder.Build();
+
 
 			// Configure the HTTP request pipeline.
 			if (!app.Environment.IsDevelopment())
