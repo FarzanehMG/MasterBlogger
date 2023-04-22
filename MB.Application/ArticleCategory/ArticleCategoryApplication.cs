@@ -29,5 +29,11 @@ namespace MB.Application.ArticleCategory
 			}
 			return result;
 		}
-	}
+
+		public void Create(CreateArticleCategory command)
+		{
+			var articleCategory = new Domain.ArticleCategoryAgg.ArticleCategory(command.Title);
+			_articleCategoryRepository.Add(articleCategory);
+		}
+    }
 }

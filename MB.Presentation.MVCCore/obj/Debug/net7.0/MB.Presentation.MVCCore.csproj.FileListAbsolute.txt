@@ -79,3 +79,8 @@ D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\MB.Domain.pdb
 D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\obj\Debug\net7.0\MB.Presentation.MVCCore.csproj.CopyComplete
 D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\MB.Interface.core.dll
 D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\MB.Interface.core.pdb
+D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\Humanizer.dll
+D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\System.CodeDom.dll

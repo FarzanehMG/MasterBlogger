@@ -11,7 +11,7 @@ namespace MB.Presentation.MVCCore
 			// Add services to the container.
 			builder.Services.AddRazorPages();
 
-			Bootstrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("MasterBloggerDB"));
+			Bootstrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("MasterBlogger"));
 
 			
 

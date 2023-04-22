@@ -2,7 +2,7 @@
 {
     public interface IArticleCategoryRepository
     {
-        void Create(ArticleCategory entity);
+        void Add(ArticleCategory entity);
         List<ArticleCategory> GetAll();
     }
 }

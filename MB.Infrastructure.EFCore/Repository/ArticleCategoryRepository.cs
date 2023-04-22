@@ -10,7 +10,7 @@ namespace MB.Infrastructure.EFCore.Repository
 			_masterBloggerContext = masterBloggerContext;
 		}
 
-		public void Create(ArticleCategory entity)
+		public void Add(ArticleCategory entity)
 		{
 			_masterBloggerContext.ArticleCategories.Add(entity);
 			_masterBloggerContext.SaveChanges();
@@ -18,7 +18,7 @@ namespace MB.Infrastructure.EFCore.Repository
 
 		public List<ArticleCategory> GetAll()
 		{
-			return _masterBloggerContext.ArticleCategories.ToList();
+			return _masterBloggerContext.ArticleCategories.OrderByDescending(x=>x.Id).ToList();
 		}
 	}
 
