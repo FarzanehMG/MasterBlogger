@@ -15,3 +15,5 @@ D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\MB.Infrastru
 D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\ref\MB.Infrastructure.EFCore.dll
 D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net7.0\MB.Infrastructure.EFCore.runtimeconfig.json
 D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net7.0\MB.Infrastructure.EFCore.genruntimeconfig.cache
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net7.0\MB.Application.Contracts.dll
+D:\.NETCore\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net7.0\MB.Application.Contracts.pdb

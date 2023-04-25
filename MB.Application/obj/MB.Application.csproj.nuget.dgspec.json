@@ -159,7 +159,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\.NETCore\\MasterBlogger\\MB.Appllication.Contracts\\MB.Application.Contracts.csproj": {
+                "projectPath": "D:\\.NETCore\\MasterBlogger\\MB.Appllication.Contracts\\MB.Application.Contracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
