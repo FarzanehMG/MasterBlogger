@@ -8,7 +8,7 @@
 	<div class="card-header">
 		<h3 class="float-start">Article Category List</h3>
 		<div class="float-end">
-			<a class="btn btn-success" asp-page="./CreateAndSave" asp-area="Administrator">Add New</a>
+			<a class="btn btn-success" asp-page="./Create" asp-area="Administrator">Add New</a>
 		</div>
 	</div>
 	<div class="card-body">
@@ -40,7 +40,7 @@
 					</td>
 					<td>@articleCategory.CreationDate</td>
 					<td>
-							<a class="btn btn-warning float-start mr-3" asp-page="./Edit" asp-route-id="@articleCategory.Id">Rename</a>
+						<a class="btn btn-warning float-start mr-3" asp-page="./Edit" asp-route-id="@articleCategory.Id">Rename</a>
 						@if (articleCategory.IsDeleted)
 						{
 							<form method="post" asp-page-handler="Activate" class="float-start">

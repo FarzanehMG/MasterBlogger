@@ -31,8 +31,8 @@ namespace MB.Domain.ArticleCategoryAgg
 
         public void Rename(string title)
         {
-	        GuardAgainstEmptyTitle(Title);
-			title = Title;
+	        GuardAgainstEmptyTitle(title);
+	        Title = title;
         }
 
         public void Remove()
