@@ -27,14 +27,20 @@ namespace MB.Infrastructure.EFCore.Repository
 			}).ToList();
 		}
 
-		public void Create(Article entity)
+		public void CreateAndSave(Article entity)
 		{
 			_context.Articles.Add(entity);
+			Save();
 		}
 
 		public void Save()
 		{
 			_context.SaveChanges();
+		}
+
+		public Article Get(long id)
+		{
+			return _context.Articles.First(x => x.Id == id);
 		}
 	}
 }
