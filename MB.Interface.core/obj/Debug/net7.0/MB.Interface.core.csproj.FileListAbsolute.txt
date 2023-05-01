@@ -19,3 +19,5 @@ D:\.NETCore\MasterBlogger\MB.Interface.core\obj\Debug\net7.0\MB.Interface.core.d
 D:\.NETCore\MasterBlogger\MB.Interface.core\obj\Debug\net7.0\refint\MB.Interface.core.dll
 D:\.NETCore\MasterBlogger\MB.Interface.core\obj\Debug\net7.0\MB.Interface.core.pdb
 D:\.NETCore\MasterBlogger\MB.Interface.core\obj\Debug\net7.0\ref\MB.Interface.core.dll
+D:\.NETCore\MasterBlogger\MB.Interface.core\bin\Debug\net7.0\MB.Infrastructure.Query.dll
+D:\.NETCore\MasterBlogger\MB.Interface.core\bin\Debug\net7.0\MB.Infrastructure.Query.pdb

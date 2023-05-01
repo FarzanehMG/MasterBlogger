@@ -1,20 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MB.Infrastructure.Query;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MB.Presentation.MVCCore.Pages
 {
-	public class IndeModel : PageModel
+	public class IndexModel : PageModel
 	{
-		private readonly ILogger<IndeModel> _logger;
-
-		public IndeModel(ILogger<IndeModel> logger)
+		public List<ArticleQueryView> ArticleQueryViews { get; set; }
+		private readonly IArticleQuery _query;
+		public IndexModel(IArticleQuery query)
 		{
-			_logger = logger;
+			_query = query;
 		}
-
 		public void OnGet()
 		{
-
+			ArticleQueryViews = _query.GetArticles();
 		}
 	}
 }

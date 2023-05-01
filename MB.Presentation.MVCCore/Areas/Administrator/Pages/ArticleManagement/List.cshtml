@@ -16,6 +16,7 @@
 			<tr>
 				<th>Id</th>
 				<th>Title</th>
+				<th>AuthorName</th>
 				<th>ArticleCategory</th>
 				<th>Status</th>
 				<th>CreationDate</th>
@@ -28,6 +29,7 @@
 				<tr>
 					<td>@article.Id</td>
 					<td>@article.Title</td>
+					<td>@article.authorName</td>
 					<td>@article.ArticleCategory</td>
 					<td>
 						@if (@article.IsDeleted)

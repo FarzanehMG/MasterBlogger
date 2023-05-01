@@ -23,7 +23,8 @@ namespace MB.Infrastructure.EFCore.Repository
 				Title = x.Title,
 				ArticleCategory = x.ArticleCategory.Title,
 				CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
-				IsDeleted = x.IsDeleted
+				IsDeleted = x.IsDeleted,
+				authorName = x.AuthorName
 			}).ToList();
 		}
 

@@ -17,12 +17,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\js\\script.js",
-      "PackagePath": "staticwebassets\\js\\script.js"
+      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\images\\camp.jpg",
+      "PackagePath": "staticwebassets\\images\\camp.jpg"
     },
     {
-      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\images\\cityinlenz.jpg",
+      "PackagePath": "staticwebassets\\images\\cityinlenz.jpg"
+    },
+    {
+      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\images\\girl.jpg",
+      "PackagePath": "staticwebassets\\images\\girl.jpg"
+    },
+    {
+      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\images\\lake.jpg",
+      "PackagePath": "staticwebassets\\images\\lake.jpg"
+    },
+    {
+      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\images\\lenz.jpg",
+      "PackagePath": "staticwebassets\\images\\lenz.jpg"
+    },
+    {
+      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\images\\phanoos.jpg",
+      "PackagePath": "staticwebassets\\images\\phanoos.jpg"
+    },
+    {
+      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\images\\photography.jpg",
+      "PackagePath": "staticwebassets\\images\\photography.jpg"
+    },
+    {
+      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

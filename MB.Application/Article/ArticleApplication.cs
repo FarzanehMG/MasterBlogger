@@ -20,7 +20,7 @@ namespace MB.Application.Article
 		public void Create(CreateArticle command)
 		{
 			var article = new Domain.ArticleAgg.Article(command.Title, command.Image, command.ShortDescription,
-				command.Content, command.ArticleCategoryId);
+				command.Content, command.ArticleCategoryId,command.authorName);
 			_articleRepository.CreateAndSave(article);
 			_articleRepository.Save();
 		}
@@ -28,7 +28,7 @@ namespace MB.Application.Article
 		public void Edit(EditArticle command)
 		{
 			var article = _articleRepository.Get(command.Id);
-			article.Edit(command.Title,command.Image,command.ShortDescription,command.Content,command.ArticleCategoryId);
+			article.Edit(command.Title,command.Image,command.ShortDescription,command.Content,command.ArticleCategoryId,command.authorName);
 			_articleRepository.Save();
 		}
 
@@ -42,7 +42,8 @@ namespace MB.Application.Article
 				ArticleCategoryId = article.ArticleCategoryId,
 				Content = article.Content,
 				Image = article.Image,
-				ShortDescription = article.ShortDescription
+				ShortDescription = article.ShortDescription,
+				authorName = article.AuthorName
 			};
 		}
 

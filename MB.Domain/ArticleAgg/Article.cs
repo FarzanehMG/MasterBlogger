@@ -7,6 +7,7 @@ namespace MB.Domain.ArticleAgg
 	{
 		public long Id { get; private set; }
 		public string Title { get; private set; }
+		public string AuthorName { get; private set; }
 		public string Image { get; private set; }
 		public string ShortDescription { get; private set; }
 		public string Content { get; private set; }
@@ -19,7 +20,7 @@ namespace MB.Domain.ArticleAgg
 		{
 		}
 
-		public Article(string title, string image, string shortDescription, string content, long articleCategoryId)
+		public Article(string title, string image, string shortDescription, string content, long articleCategoryId, string authorName)
 		{
 			validate(title, articleCategoryId);
 			Title = title;
@@ -27,6 +28,7 @@ namespace MB.Domain.ArticleAgg
 			ShortDescription = shortDescription;
 			Content = content;
 			ArticleCategoryId = articleCategoryId;
+			AuthorName = authorName;
 			IsDeleted = false;
 			CreationDate = DateTime.Now;
 		}
@@ -44,7 +46,7 @@ namespace MB.Domain.ArticleAgg
 			}
 		}
 
-		public void Edit(string title, string image, string shortDescription, string content, long articleCategoryId)
+		public void Edit(string title, string image, string shortDescription, string content, long articleCategoryId, string authorName)
 		{
 			validate(title, articleCategoryId);
 			Title = title;
@@ -52,6 +54,7 @@ namespace MB.Domain.ArticleAgg
 			ShortDescription = shortDescription;
 			Content = content;
 			ArticleCategoryId = articleCategoryId;
+			AuthorName = authorName;
 		}
 		public void Remove()
 		{

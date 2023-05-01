@@ -5,13 +5,13 @@ body {
 
 
 .blog-container {
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
-  font-family: "adelle-sans", sans-serif;
-  font-weight: 100;
-  margin: 48px auto;
-  width: 20rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 100;
+    margin: 48px auto;
+    width: 20rem;
 }
 @media screen and (min-width: 480px) {
   .blog-container {
@@ -40,11 +40,9 @@ body {
 }
 
 .blog-cover {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/yosemite-3.jpg");
-  background-size: cover;
-  border-radius: 5px 5px 0 0;
-  height: 15rem;
-  box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 15rem;
 }
 
 .blog-author,
@@ -56,8 +54,7 @@ body {
 
 .blog-author h3::before,
 .blog-author--no-cover h3::before {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/russ.jpeg");
-  background-size: cover;
+    background-size: cover;
   border-radius: 50%;
   content: " ";
   display: inline-block;

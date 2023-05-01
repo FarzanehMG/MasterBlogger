@@ -3,14 +3,9 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MB.Presentation.MVCCore.Pages
 {
-	public class IndexModel : PageModel
+	public class Index0Model : PageModel
 	{
-		private readonly ILogger<IndexModel> _logger;
 
-		public IndexModel(ILogger<IndexModel> logger)
-		{
-			_logger = logger;
-		}
 
 		public void OnGet()
 		{
