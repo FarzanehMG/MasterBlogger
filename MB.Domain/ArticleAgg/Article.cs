@@ -1,4 +1,5 @@
 ﻿using MB.Domain.ArticleCategoryAgg;
+using System.ComponentModel.DataAnnotations;
 
 namespace MB.Domain.ArticleAgg
 {
@@ -20,6 +21,7 @@ namespace MB.Domain.ArticleAgg
 
 		public Article(string title, string image, string shortDescription, string content, long articleCategoryId)
 		{
+			validate(title, articleCategoryId);
 			Title = title;
 			Image = image;
 			ShortDescription = shortDescription;
@@ -29,8 +31,22 @@ namespace MB.Domain.ArticleAgg
 			CreationDate = DateTime.Now;
 		}
 
+		private static void validate(string title, long articleCategoryId)
+		{
+			if (string.IsNullOrWhiteSpace(title))
+			{
+				throw new ArgumentNullException();
+			}
+
+			if (articleCategoryId == 0)
+			{
+				throw new ArgumentOutOfRangeException();
+			}
+		}
+
 		public void Edit(string title, string image, string shortDescription, string content, long articleCategoryId)
 		{
+			validate(title, articleCategoryId);
 			Title = title;
 			Image = image;
 			ShortDescription = shortDescription;
