@@ -40,7 +40,7 @@ namespace MB.Infrastructure.EFCore.Repository
 
 		public Article Get(long id)
 		{
-			return _context.Articles.First(x => x.Id == id);
+			return _context.Articles.FirstOrDefault(x => x.Id == id);
 		}
 	}
 }
