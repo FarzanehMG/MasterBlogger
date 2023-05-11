@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\css\\stylesDetails.css",
+      "PackagePath": "staticwebassets\\css\\stylesDetails.css"
+    },
+    {
       "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\images\\Capture.png",
+      "PackagePath": "staticwebassets\\images\\Capture.png"
     },
     {
       "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\images\\camp.jpg",

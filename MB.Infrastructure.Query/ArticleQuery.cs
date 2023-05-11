@@ -27,5 +27,20 @@ namespace MB.Infrastructure.Query
 				CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture)
 			}).ToList();
 		}
+
+		public ArticleQueryView GetArticle(long id)
+		{
+			return _context.Articles.Include(x => x.ArticleCategory).Select(x => new ArticleQueryView
+			{
+				Id = x.Id,
+				Title = x.Title,
+				ArticleCategory = x.ArticleCategory.Title,
+				AuthoerName = x.AuthorName,
+				Image = x.Image,
+				ShortDescription = x.ShortDescription,
+				Content = x.Content,
+				CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture)
+			}).FirstOrDefault(x => x.Id == id);
+		}
 	}
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "INwND+KfhfX8a7gCQf0K7Fz1+/XDnZ5vqOxhQpsEBOU=",
+  "Hash": "CJyRUFIfNT+8qlBXJ2BspbZ09UWjqyCdEUNMGWrsdWc=",
   "Source": "MB.Presentation.MVCCore",
   "BasePath": "_content/MB.Presentation.MVCCore",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
+      "Identity": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\css\\stylesDetails.css",
+      "SourceId": "MB.Presentation.MVCCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\",
+      "BasePath": "_content/MB.Presentation.MVCCore",
+      "RelativePath": "css/stylesDetails.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\stylesDetails.css"
+    },
+    {
       "Identity": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\favicon.ico",
       "SourceId": "MB.Presentation.MVCCore",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\camp.jpg"
+    },
+    {
+      "Identity": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\images\\Capture.png",
+      "SourceId": "MB.Presentation.MVCCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\",
+      "BasePath": "_content/MB.Presentation.MVCCore",
+      "RelativePath": "images/Capture.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Capture.png"
     },
     {
       "Identity": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\images\\cityinlenz.jpg",
