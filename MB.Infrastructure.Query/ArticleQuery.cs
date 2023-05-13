@@ -24,7 +24,8 @@ namespace MB.Infrastructure.Query
 				ShortDescription = x.ShortDescription,
 				Content = x.Content,
 				ArticleCategory = x.ArticleCategory.Title,
-				CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture)
+				CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
+				IsDeleted = x.IsDeleted
 			}).ToList();
 		}
 

@@ -20,15 +20,10 @@ namespace MB.Domain.CommentAgg
 			Message = message;
 			CreationDate = DateTime.Now;
 			ArticleId = articleId;
-			Status = 0;
+			Status = Statuses.New;
 		}
 		protected Comment(){}
 
-		public static class Statuses
-		{
-			public const int New = 0;
-			public const int Confirmed = 1;
-			public const int Canceled = 2;
-		}
+		
 	}
 }
