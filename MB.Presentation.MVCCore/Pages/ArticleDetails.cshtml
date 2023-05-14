@@ -5,6 +5,7 @@
 }
 <!-- Core theme CSS (includes Bootstrap)-->
 <link href="~/css/stylesDetails.css" rel="stylesheet"/>
+<link href="~/css/Comment.css" rel="stylesheet" />
 <link rel="stylesheet" href="~/css/HeaderAndFooter.css">
 <!-- Page content-->
 <div class="container mt-5">
@@ -34,33 +35,70 @@
 
 			<!-- Comments section-->
 			<section class="mb-5">
-			<!-- Single comment-->
-			<div class="add-comment">
-				<header>
-					<h3 class="h6">Leave a reply</h3>
-				</header>
-				<form method="post">
-					<div class="mb-3">
-							<label for="Name" class="form-label">Name</label>
-						<input type="text" class="form-control" id="Name" name="Name">
+				<div class="container bootstrap snippets bootdey">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="blog-comment">
+						<h3 class="text-success">Comments</h3>
+						<hr/>
+						<ul class="comments">
+							@foreach (var comment in Model.Article.CommentQuery)
+							{
+								<li class="clearfix">
+									<img src="https://bootdey.com/img/Content/user_1.jpg" class="avatar" alt="">
+									<div class="post-comments">
+												<p class="meta">@comment.CreationDate - <a href="#">@comment.Name</a> says : <i class="pull-right"><a href="#"><!--<small>Reply</small>--></a></i></p>
+										<p>
+											@comment.Message
+										</p>
+									</div>
+								</li>
+							}
+						</ul>
 					</div>
-					<div class="mb-3">
-							<label for="Email" class="form-label">Email address</label>
-						<input type="email" class="form-control" id="Email" name="Email" aria-describedby="emailHelp">
-						<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-					</div>
-					<div class="mb-3">
-							<label for="Message" class="form-label">Message</label>
-						<textarea name="Message" id="Message" placeholder="Type your comment" class="form-control"></textarea>
-					</div>
-					<div class="mb-3 form-check">
-						<input type="checkbox" class="form-check-input" id="exampleCheck1">
-						<label class="form-check-label" for="exampleCheck1">Check me out</label>
-					</div>
-						<input type="hidden" name="ArticleId" value="@Model.Article.Id" />
-						<button type="submit" class="btn btn-primary">Submit</button>
-				</form>
+				</div>
 			</div>
+		</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+				<!-- Single comment-->
+				<div class="add-comment">
+					<header>
+						<h3 class="h6">Leave a reply</h3>
+					</header>
+					<form method="post">
+						<div class="mb-3">
+							<label for="Name" class="form-label">Name</label>
+							<input type="text" class="form-control" id="Name" name="Name">
+						</div>
+						<div class="mb-3">
+							<label for="Email" class="form-label">Email address</label>
+							<input type="email" class="form-control" id="Email" name="Email" aria-describedby="emailHelp">
+							<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+						</div>
+						<div class="mb-3">
+							<label for="Message" class="form-label">Message</label>
+							<textarea name="Message" id="Message" placeholder="Type your comment" class="form-control"></textarea>
+						</div>
+						<div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Check me out</label>
+						</div>
+						<input type="hidden" name="ArticleId" value="@Model.Article.Id"/>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
 			</section>
 		</div>
 	</div>

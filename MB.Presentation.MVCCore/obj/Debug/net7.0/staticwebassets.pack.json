@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MB.Presentation.MVCCore.bundle.scp.css"
     },
     {
+      "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\css\\Comment.css",
+      "PackagePath": "staticwebassets\\css\\Comment.css"
+    },
+    {
       "Id": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\css\\HeaderAndFooter.css",
       "PackagePath": "staticwebassets\\css\\HeaderAndFooter.css"
     },

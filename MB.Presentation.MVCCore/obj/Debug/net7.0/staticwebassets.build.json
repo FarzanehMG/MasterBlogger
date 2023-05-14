@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CJyRUFIfNT+8qlBXJ2BspbZ09UWjqyCdEUNMGWrsdWc=",
+  "Hash": "XvAbz9NtxDwyV40PUv3jGL0T2kFzYGgxGUen6O16RGY=",
   "Source": "MB.Presentation.MVCCore",
   "BasePath": "_content/MB.Presentation.MVCCore",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MB.Presentation.MVCCore.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\css\\Comment.css",
+      "SourceId": "MB.Presentation.MVCCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\",
+      "BasePath": "_content/MB.Presentation.MVCCore",
+      "RelativePath": "css/Comment.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Comment.css"
     },
     {
       "Identity": "D:\\.NETCore\\MasterBlogger\\MB.Presentation.MVCCore\\wwwroot\\css\\HeaderAndFooter.css",

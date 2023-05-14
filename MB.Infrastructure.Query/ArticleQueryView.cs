@@ -12,5 +12,7 @@
 		public string CreationDate { get; set; }
 		public bool IsDeleted { get; set; }
 		public long ArticleId { get; set; }
+		public long CommentCount { get; set; }
+		public List<CommentQueryView> CommentQuery { get; set; }
 	}
 }

@@ -28,6 +28,7 @@ namespace MB.Infrastructure.EFCore.Repository
 				Name = x.Name,
 				Email = x.Email,
 				Message = x.Message,
+				Status = x.Status,
 				CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
 				Article = x.Article.Title
 			}).ToList();
