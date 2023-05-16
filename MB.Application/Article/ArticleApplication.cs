@@ -14,14 +14,14 @@ namespace MB.Application.Article
 
 		public List<ArticleViewModel> GetArticles()
 		{
-			return _articleRepository.GetArticle();
+			return _articleRepository.GetList();
 		}
 
 		public void Create(CreateArticle command)
 		{
 			var article = new Domain.ArticleAgg.Article(command.Title, command.Image, command.ShortDescription,
 				command.Content, command.ArticleCategoryId,command.authorName);
-			_articleRepository.CreateAndSave(article);
+			_articleRepository.Create(article);
 			_articleRepository.Save();
 		}
 

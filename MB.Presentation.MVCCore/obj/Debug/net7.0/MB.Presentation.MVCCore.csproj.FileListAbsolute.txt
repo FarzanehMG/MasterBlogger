@@ -86,3 +86,5 @@ D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\Mono.TextTemp
 D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\System.CodeDom.dll
 D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\MB.Infrastructure.Query.dll
 D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\MB.Infrastructure.Query.pdb
+D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\FrameWork.dll
+D:\.NETCore\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net7.0\FrameWork.pdb

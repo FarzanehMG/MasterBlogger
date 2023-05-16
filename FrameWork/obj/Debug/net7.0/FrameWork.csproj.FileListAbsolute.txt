@@ -1,0 +1,12 @@
+D:\.NETCore\MasterBlogger\FrameWork\obj\Debug\net7.0\FrameWork.csproj.AssemblyReference.cache
+D:\.NETCore\MasterBlogger\FrameWork\obj\Debug\net7.0\FrameWork.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NETCore\MasterBlogger\FrameWork\obj\Debug\net7.0\FrameWork.AssemblyInfoInputs.cache
+D:\.NETCore\MasterBlogger\FrameWork\obj\Debug\net7.0\FrameWork.AssemblyInfo.cs
+D:\.NETCore\MasterBlogger\FrameWork\obj\Debug\net7.0\FrameWork.csproj.CoreCompileInputs.cache
+D:\.NETCore\MasterBlogger\FrameWork\bin\Debug\net7.0\FrameWork.deps.json
+D:\.NETCore\MasterBlogger\FrameWork\bin\Debug\net7.0\FrameWork.dll
+D:\.NETCore\MasterBlogger\FrameWork\bin\Debug\net7.0\FrameWork.pdb
+D:\.NETCore\MasterBlogger\FrameWork\obj\Debug\net7.0\FrameWork.dll
+D:\.NETCore\MasterBlogger\FrameWork\obj\Debug\net7.0\refint\FrameWork.dll
+D:\.NETCore\MasterBlogger\FrameWork\obj\Debug\net7.0\FrameWork.pdb
+D:\.NETCore\MasterBlogger\FrameWork\obj\Debug\net7.0\ref\FrameWork.dll

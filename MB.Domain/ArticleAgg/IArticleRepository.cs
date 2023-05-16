@@ -1,13 +1,11 @@
-﻿using MB.Application.Contracts.Article;
+﻿using FrameWork.Infrastructure;
+using MB.Application.Contracts.Article;
 
 namespace MB.Domain.ArticleAgg
 {
-	public interface IArticleRepository
+	public interface IArticleRepository : IRepository<long,Article>
 	{
-		List<ArticleViewModel> GetArticle();
-		void CreateAndSave(Article entity);
+		List<ArticleViewModel> GetList();
 		void Save();
-		Article Get(long id);
-		bool Exists(string title);
 	}
 }

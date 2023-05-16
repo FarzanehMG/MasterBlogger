@@ -15,3 +15,5 @@ D:\.NETCore\MasterBlogger\MB.Application\obj\Debug\net7.0\MB.Application.dll
 D:\.NETCore\MasterBlogger\MB.Application\obj\Debug\net7.0\refint\MB.Application.dll
 D:\.NETCore\MasterBlogger\MB.Application\obj\Debug\net7.0\MB.Application.pdb
 D:\.NETCore\MasterBlogger\MB.Application\obj\Debug\net7.0\ref\MB.Application.dll
+D:\.NETCore\MasterBlogger\MB.Application\bin\Debug\net7.0\FrameWork.dll
+D:\.NETCore\MasterBlogger\MB.Application\bin\Debug\net7.0\FrameWork.pdb

@@ -19,24 +19,13 @@ namespace MB.Application.ArticleCategory
 		public List<ArticleCategoryViewModel> List()
 		{
 			var articleCategories = _articleCategoryRepository.GetAll();
-			var result = new List<ArticleCategoryViewModel>();
-			foreach (var articleCategory in articleCategories)
-			{
-				result.Add(new ArticleCategoryViewModel
-				{
-					Id = articleCategory.Id,
-					Title = articleCategory.Title,
-					IsDeleted = articleCategory.IsDeleted,
-					CreationDate = articleCategory.CreationDate.ToString(CultureInfo.InvariantCulture)
-				});
-			}
-			return result;
+			return articleCategories.Select(articleCategory => new ArticleCategoryViewModel { Id = articleCategory.Id, Title = articleCategory.Title, IsDeleted = articleCategory.IsDeleted, CreationDate = articleCategory.CreationDate.ToString(CultureInfo.InvariantCulture) }).OrderByDescending(x=>x.Id).ToList();
 		}
 
 		public void Create(CreateArticleCategory command)
 		{
 			var articleCategory = new Domain.ArticleCategoryAgg.ArticleCategory(command.Title , _articleCategoryValidatorService);
-			_articleCategoryRepository.Add(articleCategory);
+			_articleCategoryRepository.Create(articleCategory);
 		}
 
 		public void Rename(RenameArticleCategory command)

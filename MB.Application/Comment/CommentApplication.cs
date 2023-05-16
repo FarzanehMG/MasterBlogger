@@ -16,7 +16,7 @@ namespace MB.Application.Comment
 		{
 			var comment =
 				new Domain.CommentAgg.Comment(command.Name, command.Email, command.Message, command.ArticleId);
-			_commentRepository.CreateAndSave(comment);
+			_commentRepository.Create(comment);
 		}
 
 		public List<CommentViewModel> GetList()

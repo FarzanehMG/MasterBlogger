@@ -17,3 +17,5 @@ D:\.NETCore\MasterBlogger\MB.Infrastructure.Query\obj\Debug\net7.0\MB.Infrastruc
 D:\.NETCore\MasterBlogger\MB.Infrastructure.Query\obj\Debug\net7.0\refint\MB.Infrastructure.Query.dll
 D:\.NETCore\MasterBlogger\MB.Infrastructure.Query\obj\Debug\net7.0\MB.Infrastructure.Query.pdb
 D:\.NETCore\MasterBlogger\MB.Infrastructure.Query\obj\Debug\net7.0\ref\MB.Infrastructure.Query.dll
+D:\.NETCore\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net7.0\FrameWork.dll
+D:\.NETCore\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net7.0\FrameWork.pdb
