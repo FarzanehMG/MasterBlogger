@@ -1,4 +1,5 @@
-﻿using MB.Application.Article;
+﻿using FrameWork.Infrastructure;
+using MB.Application.Article;
 using MB.Application.ArticleCategory;
 using MB.Application.Comment;
 using MB.Application.Contracts.Article;
@@ -33,7 +34,8 @@ namespace MB.Interface.core
 
 			services.AddTransient<ICommentApplication,CommentApplication>();
 			services.AddTransient<ICommentRepository,CommentRepository>();
-			
+
+			services.AddTransient<IUnitOfWork,UnitOfWorkEf>();
 
 			services.AddDbContext<MasterBloggerContext>(options => options.UseSqlServer(connectionString));
 		}

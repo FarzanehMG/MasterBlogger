@@ -6,6 +6,5 @@ namespace MB.Domain.CommentAgg
 	public interface ICommentRepository : IRepository<long,Comment>
 	{
 		List<CommentViewModel> GetList();
-		void Save();
 	}
 }

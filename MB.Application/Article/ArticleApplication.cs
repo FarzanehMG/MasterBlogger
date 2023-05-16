@@ -1,4 +1,5 @@
-﻿using MB.Application.Contracts.Article;
+﻿using FrameWork.Infrastructure;
+using MB.Application.Contracts.Article;
 using MB.Domain.ArticleAgg;
 
 namespace MB.Application.Article
@@ -6,10 +7,12 @@ namespace MB.Application.Article
 	public class ArticleApplication :IArticleApplication
 	{
 		private readonly IArticleRepository _articleRepository;
+		private readonly IUnitOfWork _unitOfWork;
 
-		public ArticleApplication(IArticleRepository articleRepository)
+		public ArticleApplication(IArticleRepository articleRepository, IUnitOfWork unitOfWork)
 		{
 			_articleRepository = articleRepository;
+			_unitOfWork = unitOfWork;
 		}
 
 		public List<ArticleViewModel> GetArticles()
@@ -19,17 +22,19 @@ namespace MB.Application.Article
 
 		public void Create(CreateArticle command)
 		{
+			_unitOfWork.BeginTran();
 			var article = new Domain.ArticleAgg.Article(command.Title, command.Image, command.ShortDescription,
 				command.Content, command.ArticleCategoryId,command.authorName);
 			_articleRepository.Create(article);
-			_articleRepository.Save();
+			_unitOfWork.CommitTran();
 		}
 
 		public void Edit(EditArticle command)
 		{
+			_unitOfWork.BeginTran();
 			var article = _articleRepository.Get(command.Id);
 			article.Edit(command.Title,command.Image,command.ShortDescription,command.Content,command.ArticleCategoryId,command.authorName);
-			_articleRepository.Save();
+			_unitOfWork.CommitTran();
 		}
 
 		public EditArticle Get(long id)
@@ -49,16 +54,18 @@ namespace MB.Application.Article
 
 		public void Remove(long id)
 		{
+			_unitOfWork.BeginTran();
 			var articleCategory = _articleRepository.Get(id);
 			articleCategory.Remove();
-			_articleRepository.Save();
+			_unitOfWork.CommitTran();
 		}
 
 		public void Activate(long id)
 		{
+			_unitOfWork.BeginTran();
 			var articleCategory = _articleRepository.Get(id);
 			articleCategory.Activate();
-			_articleRepository.Save();
+			_unitOfWork.CommitTran();
 		}
 	}
 }
