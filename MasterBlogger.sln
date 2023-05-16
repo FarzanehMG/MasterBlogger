@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Interface.core", "MB.Int
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Infrastructure.Query", "MB.Infrastructure.Query\MB.Infrastructure.Query.csproj", "{C59861B0-17AD-43DE-A408-BA22EDBEEB66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameWork", "FrameWork\FrameWork.csproj", "{5BA23B62-D5C1-4418-A1A4-7C67FC74AFB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C59861B0-17AD-43DE-A408-BA22EDBEEB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C59861B0-17AD-43DE-A408-BA22EDBEEB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C59861B0-17AD-43DE-A408-BA22EDBEEB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA23B62-D5C1-4418-A1A4-7C67FC74AFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA23B62-D5C1-4418-A1A4-7C67FC74AFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA23B62-D5C1-4418-A1A4-7C67FC74AFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA23B62-D5C1-4418-A1A4-7C67FC74AFB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

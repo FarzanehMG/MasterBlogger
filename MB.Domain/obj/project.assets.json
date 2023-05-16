@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "FrameWork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/FrameWork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrameWork.dll": {}
+        }
+      },
       "MB.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "FrameWork/1.0.0": {
+      "type": "project",
+      "path": "../FrameWork/FrameWork.csproj",
+      "msbuildProject": "../FrameWork/FrameWork.csproj"
+    },
     "MB.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../MB.Appllication.Contracts/MB.Application.Contracts.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "FrameWork >= 1.0.0",
       "MB.Application.Contracts >= 1.0.0"
     ]
   },
@@ -59,6 +75,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\.NETCore\\MasterBlogger\\FrameWork\\FrameWork.csproj": {
+              "projectPath": "D:\\.NETCore\\MasterBlogger\\FrameWork\\FrameWork.csproj"
+            },
             "D:\\.NETCore\\MasterBlogger\\MB.Appllication.Contracts\\MB.Application.Contracts.csproj": {
               "projectPath": "D:\\.NETCore\\MasterBlogger\\MB.Appllication.Contracts\\MB.Application.Contracts.csproj"
             }

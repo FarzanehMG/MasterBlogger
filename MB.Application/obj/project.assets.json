@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "FrameWork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/FrameWork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrameWork.dll": {}
+        }
+      },
       "MB.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -16,6 +26,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "FrameWork": "1.0.0",
           "MB.Application.Contracts": "1.0.0"
         },
         "compile": {
@@ -28,6 +39,11 @@
     }
   },
   "libraries": {
+    "FrameWork/1.0.0": {
+      "type": "project",
+      "path": "../FrameWork/FrameWork.csproj",
+      "msbuildProject": "../FrameWork/FrameWork.csproj"
+    },
     "MB.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../MB.Appllication.Contracts/MB.Application.Contracts.csproj",

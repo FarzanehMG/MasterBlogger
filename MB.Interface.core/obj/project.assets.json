@@ -1133,6 +1133,16 @@
           }
         }
       },
+      "FrameWork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/FrameWork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrameWork.dll": {}
+        }
+      },
       "MB.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1161,6 +1171,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "FrameWork": "1.0.0",
           "MB.Application.Contracts": "1.0.0"
         },
         "compile": {
@@ -3519,6 +3530,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "FrameWork/1.0.0": {
+      "type": "project",
+      "path": "../FrameWork/FrameWork.csproj",
+      "msbuildProject": "../FrameWork/FrameWork.csproj"
     },
     "MB.Application/1.0.0": {
       "type": "project",
